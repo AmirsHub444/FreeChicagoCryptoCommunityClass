@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>You're On The List — Free Crypto Classes | B4OF</title>
+<meta name="robots" content="noindex">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Barlow:wght@400;600;700&family=Barlow+Condensed:wght@600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --ink:#0d0716;
+    --panel:#1a0f2b;
+    --purple:#8a3ff0;
+    --purple-deep:#5b1fae;
+    --gold:#e8b923;
+    --gold-soft:#d4a62a;
+    --paper:#f5f1e8;
+    --white:#ffffff;
+    --line:rgba(232,185,35,.35);
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  body{
+    background:var(--ink);
+    color:var(--paper);
+    font-family:'Barlow',sans-serif;
+    line-height:1.55;
+    min-height:100vh;
+    display:flex;
+    flex-direction:column;
+    background-image:
+      radial-gradient(ellipse 80% 50% at 50% -10%, rgba(138,63,240,.28), transparent 60%),
+      radial-gradient(ellipse 60% 40% at 85% 100%, rgba(232,185,35,.10), transparent 60%);
+    background-attachment:fixed;
+  }
+  .topbar{
+    text-align:center;
+    padding:14px 16px;
+    font-family:'Barlow Condensed',sans-serif;
+    font-weight:700;
+    letter-spacing:.32em;
+    font-size:.75rem;
+    text-transform:uppercase;
+    color:var(--gold);
+    border-bottom:1px solid var(--line);
+  }
+  main{
+    flex:1;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    padding:36px 20px;
+  }
+  .card{
+    background:var(--paper);
+    color:#1c1224;
+    border:3px solid var(--gold-soft);
+    box-shadow:10px 10px 0 var(--purple-deep);
+    padding:34px 26px;
+    max-width:480px;
+    width:100%;
+    text-align:center;
+    animation:pop .35s ease;
+  }
+  @keyframes pop{from{transform:scale(.92);opacity:0}to{transform:scale(1);opacity:1}}
+  .check{
+    width:60px;height:60px;
+    margin:0 auto 14px;
+    background:var(--purple-deep);
+    color:var(--white);
+    font-size:2.1rem;font-weight:700;
+    display:flex;align-items:center;justify-content:center;
+    border-radius:50%;
+  }
+  h1{
+    font-family:'Bebas Neue',sans-serif;
+    font-size:clamp(2.6rem,10vw,3.4rem);
+    color:var(--purple-deep);
+    line-height:.95;
+  }
+  .sub{margin-top:8px;font-weight:600}
+  .details{
+    margin:20px 0;
+    text-align:left;
+    display:grid;
+    gap:10px;
+    background:#efe8da;
+    border-left:4px solid var(--gold-soft);
+    padding:16px 18px;
+    font-size:.98rem;
+  }
+  .details b{color:#2a1547}
+  .note{
+    font-size:.88rem;
+    color:#4a3a5c;
+    font-weight:600;
+  }
+  .map{
+    display:inline-block;
+    margin-top:16px;
+    font-family:'Bebas Neue',sans-serif;
+    font-size:1.35rem;
+    letter-spacing:.06em;
+    background:var(--purple-deep);
+    color:var(--white);
+    text-decoration:none;
+    padding:11px 24px;
+    box-shadow:4px 4px 0 var(--gold-soft);
+    transition:transform .12s ease, box-shadow .12s ease;
+  }
+  .map:hover{transform:translate(-2px,-2px);box-shadow:6px 6px 0 var(--gold-soft)}
+  .cal{
+    display:block;
+    margin-top:12px;
+    font-size:.85rem;
+    color:#5b1fae;
+    font-weight:700;
+    text-decoration:underline;
+  }
+  footer{
+    border-top:1px solid var(--line);
+    padding:20px 16px 30px;
+    text-align:center;
+  }
+  footer .kp{
+    font-family:'Barlow Condensed',sans-serif;
+    font-weight:700;
+    text-transform:uppercase;
+    letter-spacing:.26em;
+    font-size:.8rem;
+    color:rgba(245,241,232,.85);
+  }
+  footer .kp b{color:var(--purple)}
+  footer .kp i{color:var(--gold);font-style:normal}
+  footer .org{margin-top:8px;font-size:.8rem;color:rgba(245,241,232,.5)}
+  @media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+</style>
+</head>
+<body>
+
+<div class="topbar">Building 4 Our Future Foundation</div>
+
+<main>
+  <div class="card" role="status">
+    <div class="check">✓</div>
+    <h1>You're On The List!</h1>
+    <p class="sub">Your spot for Free Crypto Classes is confirmed.</p>
+
+    <div class="details">
+      <div><b>📅 Date:</b> Saturday, July 25th, 2026</div>
+      <div><b>🕒 Time:</b> 3:00 PM CST</div>
+      <div><b>📍 Location:</b> 1100 W Cermak Rd, Chicago, IL</div>
+      <div><b>🎓 Topics:</b> Crypto • Ethereum • DeFi</div>
+      <div><b>👥 Who:</b> Beginner friendly — all ages welcome, no experience needed</div>
+      <div><b>💵 Cost:</b> Free</div>
+    </div>
+
+    <p class="note">Screenshot this page for your records. Space is limited — this is your confirmation.</p>
+
+    <a class="map" href="https://maps.google.com/?q=1100+W+Cermak+Rd,+Chicago,+IL" target="_blank" rel="noopener">Open in Google Maps</a>
+    <a class="cal" href="https://www.google.com/calendar/render?action=TEMPLATE&text=Free+Crypto+Classes+%E2%80%94+B4OF&dates=20260725T200000Z/20260725T230000Z&details=Free+beginner-friendly+crypto+classes+%E2%80%94+Crypto,+Ethereum+%26+DeFi.+Building+4+Our+Future+Foundation.&location=1100+W+Cermak+Rd,+Chicago,+IL" target="_blank" rel="noopener">+ Add to Google Calendar</a>
+  </div>
+</main>
+
+<footer>
+  <div class="kp">Knowledge is <b>Power</b>. Freedom is <i>the Goal</i>.</div>
+  <div class="org">Building 4 Our Future Foundation — Building Today. Empowering Tomorrow.</div>
+</footer>
+
+</body>
+</html>
